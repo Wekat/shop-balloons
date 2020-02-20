@@ -14,6 +14,7 @@
     text-align: center;
     font-family: Helvetica;
     color: rgb(226, 132, 19);
+    margin-bottom: 60px;
 }
 
 .cart_container {
@@ -34,11 +35,31 @@
     width: 100%;
 }
 
-.item_description {
+.item_description1 {
+    font-family: Helvetica;
+    margin-top: 0em;
+}
+
+.item_description2 {
+    font-family: Helvetica;
+    font-style: italic;
+    margin-right: 50px;
+}
+
+.price1 {
+    font-family: Helvetica;
+    margin-top: 0em;
+}
+
+.price2 {
     font-family: Helvetica;
 }
 
-.price {
+.total_box {
+    font-family: Helvetica;
+}
+
+.payment_method_box {
     font-family: Helvetica;
 }
 
