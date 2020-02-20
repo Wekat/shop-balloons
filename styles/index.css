@@ -49,10 +49,24 @@ ul li a{
 .menu li{
     float:left;
 }
-#footer{
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #0e7c7b;
+    font-size: 12px;
+    font-weight:bold;
+ }
+/*#footer{
     text-align: center;
     color: #0e7c7b;
     font-size: 12px;
     font-family: Helvetica;
-}
+}/*
 
+body{
+    background-color:white;
+    background-image: url('../images/balloon.jpg');"
+}
