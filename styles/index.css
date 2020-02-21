@@ -12,7 +12,10 @@ img {
 }
 body{
     background-color:white;
-    background-image: url('../images/balloon.jpg');
+    background-image: url('../images/balloon3.jpg');
+    background-repeat:no-repeat; background-attachment: fixed;
+    background-position:center; background-size: cover; height: 100%;
+    margin:0; opacity: 0.8;
 }
 nav{
     width: 100%;
@@ -25,8 +28,8 @@ ul {
     list-style-type: none;
 }
 ul li { 
-    list-style: none;
-    display: inline-block;
+       list-style: none;
+       display: inline-block;
 }
 ul li a{
         display: block;
@@ -60,4 +63,13 @@ ul li a{
     color: #0e7c7b;
     font-size: 12px;
     font-weight:bold;
- }
+}
+p  {
+    color: #0e7c7b;
+    font-size: 12px;
+    font-weight:bold;
+    margin-left: 25px;
+    padding-bottom: 15px;
+    font-style: italic;
+}
+   
