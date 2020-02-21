@@ -12,6 +12,7 @@ img {
 }
 body{
     background-color:white;
+    background-image: url('../images/balloon.jpg');
 }
 nav{
     width: 100%;
@@ -52,16 +53,11 @@ ul li a{
 .footer {
     position: fixed;
     left: 0;
-    bottom: 0;
+    bottom: 0px;;
+    margin-bottom: 20px;
     width: 100%;
     text-align: center;
     color: #0e7c7b;
     font-size: 12px;
     font-weight:bold;
  }
-
-
-body{
-    background-color:white;
-    background-image: url('../images/balloon.jpg');"
-}
