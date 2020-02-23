@@ -1,3 +1,7 @@
+body {
+	margin: 0;
+}
+
 h1 {
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
@@ -14,10 +18,11 @@ h3 {
 	color: #e28413;
 }
 
-img {
-	width: 100%;
-	height: 100%;
-	border-radius: 8PX;
+.all_balloons {
+	/* display: flex; */
+	/* justify-content: space-around; */
+	text-align: center;
+	padding: 20px 0;
 } 
 
 .div {
@@ -28,19 +33,91 @@ img {
 .balloon {
 	max-width: 250px;
 	width: 100%;
-	flex-direction: column;
-	align-items: center;
+	display: inline-block;
+	margin: 0 20px;
+	/* display: flex; */
+	/* flex-direction: column; */
+	/* align-items: center; */
+	border: 8px double #0e7c7b;
+	background-color: #d9e5ed;
 	padding: 20px 25px;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	box-shadow: 2px 2px 16px rgba(129, 119, 119, 0.4);
 }
 
-.balloon__picture {
-	position: absolute;
-	height: 180px;
-	margin-bottom: 10px;
-}
-
-.balloon__img {
+.img_ballon {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 }
+
+.balloon__picture {
+	position: relative;
+	height: 180px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+.balloon__picture:hover .description_pic_text {
+	display: flex;
+	opacity: 0.8;
+}
+
+.content {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+} 
+
+.balloon_description {
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+.balloon_price {
+	font-weight: 100;
+	font-style: normal;
+	color: #050505;
+	margin-bottom: 15px;
+}
+
+.buy_button {
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#050505;
+	color: #ffffff;
+	border: none;
+	font-weight: 700;
+	font-size: 20px;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.buy_button:hover {
+	background-color: #e28413;
+}
+
+.to_checkout {
+	/* display: flex; */
+	/* justify-content: space-around; */
+	text-align: center;
+	padding: 20px 0;	
+}
+
+.checkout_button {
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffffff;
+	color: #e28413;
+	border: none;
+	font-weight: 700;
+	font-size: 20px;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
